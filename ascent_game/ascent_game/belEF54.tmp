@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bns7cajili4rr"]
+
+[ext_resource type="Script" path="res://bell_gui.gd" id="1_2pd3q"]
+[ext_resource type="Texture2D" uid="uid://d3fdyjeonu1tq" path="res://ascent_tileset/ascent_life_bell.webp" id="1_crsm5"]
+
+[node name="bell_gui" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(60, 59)
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 62.0
+offset_bottom = 61.0
+script = ExtResource("1_2pd3q")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-9, -8)
+scale = Vector2(0.126645, 0.127063)
+texture = ExtResource("1_crsm5")
+centered = false

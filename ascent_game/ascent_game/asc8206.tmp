@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjny3grblsswx"]
+
+[ext_resource type="PackedScene" uid="uid://bns7cajili4rr" path="res://bell_gui.tscn" id="1_80wew"]
+[ext_resource type="Script" path="res://ascent_health_container.gd" id="1_mmbsh"]
+
+[node name="HealthContainer" type="HBoxContainer"]
+offset_left = 19.0
+offset_top = 22.0
+offset_right = 546.0
+offset_bottom = 81.0
+script = ExtResource("1_mmbsh")
+
+[node name="bell_gui" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui2" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui3" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui4" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui5" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui6" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui7" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui8" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
+
+[node name="bell_gui9" parent="." instance=ExtResource("1_80wew")]
+custom_minimum_size = Vector2(55, 30)
+layout_mode = 2
